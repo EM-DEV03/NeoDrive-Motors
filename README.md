@@ -1,7 +1,66 @@
-Diseño e implementación de un sitio web informativo para una empresa automotriz
+# 🚗 NeoDriver Motors
 
-La empresa “Autos del Futuro S.A.”, dedicada a la fabricación y comercialización de automóviles innovadores (eléctricos, híbridos y de gasolina), necesita una página web informativa que le permita dar a conocer su portafolio de vehículos, novedades tecnológicas, noticias del sector automotor y videos promocionales de sus productos.
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
+[![Bootstrap 5](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)]()
 
-Actualmente, la empresa no cuenta con un canal digital donde los visitantes puedan conocer sus modelos, visualizar información detallada ni acceder a material audiovisual. Por esta razón, se requiere el diseño de una página web estática utilizando tecnologías básicas de desarrollo web como HTML5 y CSS3.
+**NeoDriver Motors** es un sitio web estático para una empresa ficticia dedicada a la fabricación y comercialización de automóviles innovadores (eléctricos, híbridos y de gasolina).  
+Incluye diseño responsivo, secciones interactivas y contenido multimedia.
 
-La solución debe incluir un menú de navegación claro, un slider de imágenes representativas, una sección con videos embebidos, una tabla que muestre las especificaciones de los modelos disponibles y una sección de noticias destacadas. También debe incorporarse una sección de contacto con datos básicos de la empresa.
+🔗 **Demo online:** [neo-drive-motors.vercel.app](https://neo-drive-motors.vercel.app)
+
+---
+
+## 📸 Vista previa
+
+![Vista previa del sitio](ruta-a-la-captura.png) <!-- Cambia 'ruta-a-la-captura.png' por la ruta real en tu repo -->
+
+---
+
+## ✨ Características
+
+- **Menú de navegación** claro y funcional.
+- **Slider de imágenes** para destacar modelos y tecnologías.
+- **Videos embebidos** con material promocional.
+- **Tabla de especificaciones** con características técnicas.
+- **Noticias destacadas** del sector automotor.
+- **Formulario de contacto funcional**.
+- **Galería de imágenes y videos**.
+- **Diseño responsivo** para todo tipo de dispositivos.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- HTML5
+- CSS3 + Bootstrap 5
+- JavaScript
+- Hosting en **Vercel**
+
+---
+
+## 📂 Estructura del proyecto
+
+```plaintext
+NeoDriver-Motors/
+├── css/
+│   ├── contacto.css
+│   ├── galeria.css
+│   ├── politica.css
+│   └── style.css
+├── img/
+│   ├── galeria/
+│   ├── nav-ico/
+│   ├── noti/
+│   ├── noticias/
+│   └── slider/
+├── js/
+│   └── script.js
+├── pages/
+│   ├── contacto.html
+│   ├── galeria.html
+│   └── politica.html
+├── index.html
+└── README.md
