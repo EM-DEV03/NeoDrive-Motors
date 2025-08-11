@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Contacto | NeoDrive Motors</title>
+        <link rel="stylesheet" href="/css/contacto.css">
+        <link rel="shortcut icon" href="/img/nav-ico/neodrive.jpeg"
+            type="image/x-icon">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+            rel="stylesheet" />
+
+    </head>
+    <body>
+
+        <nav
+            class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow-sm"
+            id="mainNavbar">
+            <div class="container d-flex align-items-center">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/img/nav-ico/neodrive.jpeg" alt="NeoDrive"
+                        width="90" class="logo" loading="lazy" />
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end"
+                    id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link"
+                                href="/index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="/pages/galeria.html">Galeria</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Botón flotante de WhatsApp -->
+        <a href="https://wa.me/+573136186752" class="whatsapp-float"
+            target="_blank">
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp" loading="lazy">
+        </a>
+
+        <main class="contenido">
+            <section class="contacto-empresa">
+                <h2>Contáctanos</h2>
+                <p>Completa el siguiente formulario y un asesor de NeoDrive
+                    Motors se pondrá en contacto contigo lo antes posible.</p>
+
+                <form id="formulario" class="formulario-contacto">
+
+                    <!-- Nombre -->
+                    <div class="campo">
+                        <label for="nombre">Nombre completo *</label>
+                        <input type="text" id="nombre" name="nombre"
+                            placeholder="Ej. Juan Pérez" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="campo">
+                        <label for="email">Correo electrónico *</label>
+                        <input type="email" id="email" name="email"
+                            placeholder="tu@empresa.com" required>
+                    </div>
+
+                    <!-- Teléfono -->
+                    <div class="campo">
+                        <label for="telefono">Teléfono *</label>
+                        <input type="tel" id="telefono" name="telefono"
+                            placeholder="+34 600 123 456" required>
+                    </div>
+
+                    <!-- Empresa -->
+                    <div class="campo">
+                        <label for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa"
+                            placeholder="Opcional">
+                    </div>
+
+                    <!-- Tipo de consulta -->
+                    <div class="campo">
+                        <label for="tipo">Tipo de consulta *</label>
+                        <select id="tipo" name="tipo" required>
+                            <option value>Selecciona una opción</option>
+                            <option value="compra">Compra de vehículo</option>
+                            <option
+                                value="financiamiento">Financiamiento</option>
+                            <option value="servicio">Servicio técnico</option>
+                            <option value="alianzas">Alianzas
+                                comerciales</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <!-- Modelo de interés -->
+                    <div class="campo">
+                        <label for="modelo">Modelo de interés</label>
+                        <input type="text" id="modelo" name="modelo"
+                            placeholder="Ej. NeoDrive X5">
+                    </div>
+
+                    <!-- Mensaje -->
+                    <div class="campo campo-mensaje">
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" rows="5"
+                            placeholder="Escribe tu mensaje aquí..."
+                            required></textarea>
+                    </div>
+
+                    <!-- Aceptación -->
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="privacidad" name="privacidad"
+                            required>
+                        <label for="privacidad">He leído y acepto la <a
+                                href="/pages/politica.html"
+                                target="_blank">Política de
+                                Privacidad</a>.</label>
+                    </div>
+
+                    <!-- Botón -->
+                    <div class="campo campo-boton">
+                        <button type="submit">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer-modern text-light py-5">
+            <div class="container">
+                <div class="row text-center text-md-start">
+
+                    <!-- Columna Descripción -->
+                    <div class="col-md-4 mb-3">
+                        <h5 class="fw-bold">NeoDrive Motors</h5>
+                        <p class="mb-0">
+                            NeoDrive Motors, compañía innovadora dedicada al
+                            diseño y
+                            desarrollo de automóviles del futuro, combinando
+                            tecnología
+                            avanzada, diseño aerodinámico y soluciones
+                            sostenibles.
+                        </p>
+                    </div>
+
+                    <!-- Columna Redes Sociales -->
+                    <div class="col-md-4 mb-3 text-center">
+                        <h5 class="fw-bold">Síguenos</h5>
+                        <a href="#" class="text-white me-3 fs-4"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3 fs-4"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3 fs-4"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white fs-4"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+
+                    <!-- Columna Información -->
+                    <div class="col-md-4 mb-3">
+                        <h5 class="fw-bold">Contacto</h5>
+                        <p class="mb-1"><i class="fas fa-envelope me-2"></i>
+                            contacto@neodrivemotors.com</p>
+                        <p class="mb-1"><i class="fas fa-phone me-2"></i>
+                            +570000000000</p>
+                        <p><i class="fas fa-map-marker-alt me-2"></i> Bogotá,
+                            Colombia</p>
+                    </div>
+
+                </div>
+                <hr class="border-light">
+                <div class="text-center pb-2">
+                    <small>&copy; 2025 NeoDrive Motors. Todos los derechos
+                        reservados.</small>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script>document.addEventListener('contextmenu', event => event.preventDefault());
+
+document.addEventListener('keydown', event => {
+    if (event.ctrlKey && (event.key === 'u' || event.key === 'U')) {
+        event.preventDefault();
+    }
+    if (event.ctrlKey && event.shiftKey && (event.key === 'i' || event.key === 'I')) {
+        event.preventDefault();
+    }
+    if (event.key === 'F12') {
+        event.preventDefault();
+    }
+});</script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

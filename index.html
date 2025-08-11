@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeoDrive Motors</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/nav-ico/neodrive.jpeg"
+      type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet">
+
+  </head>
+  <body>
+
+    <nav
+      class="navbar navbar-expand-lg fixed-top  navbar-dark bg-dark shadow-sm"
+      id="mainNavbar">
+      <div class="container d-flex align-items-center">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/img/nav-ico/neodrive.jpeg" alt="NeoDrive" width="90"
+            class="logo" loading="lazy"/>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end"
+          id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link"
+                href="#modelos">Modelos</a></li>
+            <li class="nav-item"><a class="nav-link"
+                href="#videos">Videos</a></li>
+            <li class="nav-item"><a class="nav-link"
+                href="#noticias">Noticias</a></li>
+            <li class="nav-item"><a class="nav-link"
+                href="/pages/contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link"
+                href="/pages/galeria.html">Galeria</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Botón flotante -->
+    <a href="https://wa.me/573001234567" class="whatsapp-float" target="_blank">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+        alt="WhatsApp" loading="lazy">
+    </a>
+
+    <!-- Carrusel Automático-->
+    <div class="slider">
+      <div class="slide active"
+        style="background-image: url('/img/slider/Carro1.webp')">
+      </div>
+
+      <div class="slide"
+        style="background-image: url('/img/slider/Carro2.webp')">
+      </div>
+
+      <div class="slide"
+        style="background-image: url('/img/slider/Carro3.webp')">
+      </div>
+
+      <div class="slide"
+        style="background-image: url('/img/slider/Carro4.webp')">
+      </div>
+
+      <!-- Flechas -->
+      <div class="controls">
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+      </div>
+
+      <!-- Puntos -->
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+
+    <!-- Carrusel de tarjetas -->
+    <section class="seccion-modelos" id="modelos">
+      <h2>Modelos Nuevos</h2>
+      <div class="carrusel-modelos">
+        <button class="flecha izquierda"
+          onclick="moverCarrusel(-1)">&#10094;</button>
+        <div class="contenedor-cards" id="carrusel-modelos">
+          <div class="card">
+            <img src="/img/noticias/noticia1.webp" alt="Auto 1" loading="lazy"/>
+            <h3>MG IM5</h3>
+            <p>Con el MG IM5, la legendaria marca busca posicionarse en el
+              segmento premium europeo</p>
+          </div>
+
+          <div class="card">
+            <img src="/img/noticias/noticia2.webp" alt="Auto 2" loading="lazy"/>
+            <h3>Renault Triber 2026</h3>
+            <p>Renault Triber 2026, el modelo familiar basado en el Kwid ahora
+              es más seguro y tecnológico</p>
+          </div>
+
+          <div class="card">
+            <img src="/img/noticias/noticia3.webp" alt="Auto 3" loading="lazy"/>
+            <h3>Chevrolet Montana 2026</h3>
+            <p>La Chevrolet Montana 2026 adopta el concepto de “cabina virtual”
+              ya visto en los renovados Onix y Tracker, junto con rines de nuevo
+              diseño y otras novedades. </p>
+          </div>
+
+          <div class="card">
+            <img src="/img/noticias/noticia4.webp" alt="Auto 2" loading="lazy"/>
+            <h3>Tank 500 de GWM</h3>
+            <p>La lujosa GWM Tank 500 adopta algunas novedades para 2026 que
+              refrescan su oferta. Este SUV también se ofrece en China con
+              tecnología plug-in hybrid.</p>
+          </div>
+
+          <div class="card">
+            <img src="/img/noticias/noticia5.webp" alt="Auto 3" loading="lazy"/>
+            <h3>Zeekr X</h3>
+            <p>El vistoso Zeekr X 2026 hace su debut en Colombia con elementos
+              extras de equipamiento y una nueva versión Sport, que se convierte
+              en el “modelo de entrada”.</p>
+          </div>
+
+          <div class="card">
+            <img src="/img/noticias/noticia6.webp" alt="Auto 1" loading="lazy"/>
+            <h3>CUPRA Formentor Híbrido</h3>
+            <p>El renovado CUPRA Formentor Híbrido ya está disponible en
+              Colombia en versiones Drive y Dynamic, ambas con motor 1.5 eTSI y
+              tecnología mild-hybrid.</p>
+          </div>
+        </div>
+        <button class="flecha derecha"
+          onclick="moverCarrusel(1)">&#10095;</button>
+      </div>
+    </section>
+
+    <!-- Videos -->
+    <section class="seccion-videos" id="videos">
+      <h2 class="titulo-videos">Videos destacados</h2>
+
+      <div class="contenedor-videos">
+        <div class="video">
+          <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/H8fOyqo2URI?si=V9ACjyxcoaJaAtMh"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen loading="lazy"></iframe>
+        </div>
+
+        <div class="video">
+          <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/NMIcBu07gp4?si=tTEkdxQzWwta6vIa"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen loading="lazy"></iframe>
+        </div>
+
+        <div class="video">
+          <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/3PzOkfayZMM?si=7dYo_ZSDypMtUaY2"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <div class="boton-mas">
+        <a href="https://www.youtube.com/@AutosdeprimeraYT/videos"
+          target="_blank">Ver más videos</a>
+      </div>
+    </section>
+
+    <!-- Noticias -->
+    <section id="noticias" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="titulo-videos text-center mb-5">Noticias del Mundo
+          Automotor</h2>
+        <div class="row g-4 justify-content-center">
+
+          <!-- Carta 1 -->
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="card h-100 custom-card">
+              <img src="img/noti/noti1.webp" class="card-img-top"
+                alt="Gilles Vidal" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Gilles Vidal deja Renault Group y llega a
+                  Stellantis desde el 1 de octubre</h5>
+                <p class="card-text">Stellantis anunció el nombramiento de
+                  Gilles Vidal como nuevo jefe de diseño a partir del 1 de
+                  octubre. Se trata de la segunda baja para la francesa, tras la
+                  renuncia de Luca de Meo</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carta 2 -->
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="card h-100 custom-card">
+              <img src="img/noti/noti2.jpg" class="card-img-top"
+                alt="Renault Group" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Renault Group anunció a Duncan
+                  Minto como director general interino</h5>
+                <p class="card-text">Duncan Minto, quien ocupa el cargo de
+                  Director Financiero del Renault Group, será responsable de la
+                  gestión operativa diaria junto con Jean-Dominique Senard, en
+                  la Presidencia de Renault.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carta 3 -->
+          <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="card h-100 custom-card">
+              <img src="img/noti/noti3.webp" class="card-img-top"
+                alt="Juan Guillermo Cuadrado" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Juan Guillermo Cuadrado, embajador de
+                  Hyundai Colombia</h5>
+                <p class="card-text">Juan Guillermo Cuadrado, como embajador de
+                  Hyundai Colombia, impulsa el progreso de la humanidad a través
+                  del deporte, la innovación y la acción social.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Noticias ocultas -->
+          <div class="col-sm-6 col-md-4 col-lg-4 d-none mas-noticia">
+            <div class="card h-100 custom-card">
+              <img src="img/noti/noti4.webp" class="card-img-top"
+                alt="Juan Camilo Vélez" loading="lazy">
+              <div class="card-body">
+                <h5 class="card-title">Juan Camilo Vélez es designando como
+                  nuevo presidente y director general de RENAULT-Sofasa</h5>
+                <p class="card-text">Juan Camilo Vélez, es designado como nuevo
+                  Presidente y Director General de RENAULT-Sofasa, sustituirá a
+                  Ariel Montenegro, que asumirá el cargo de Presidente y
+                  Director General de Renault do Brasil.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-4 d-none mas-noticia">
+            <div class="card h-100 custom-card">
+              <img src="img/noti/noti5.webp" class="card-img-top"
+                alt="Grupo Renault nombró a François Provost">
+              <div class="card-body" loading="lazy">
+                <h5 class="card-title">El Grupo Renault nombró a François
+                  Provost como Director General y Presidente de Renault
+                  s.a.s./h5>
+                  <p class="card-text">El Grupo Renault nombró a François
+                    Provost, con 23 años de experiencia en el Grupo, como su
+                    nuevo Director General y Presidente de Renault s.a.s. a
+                    partir del 31 de julio.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-4 d-none mas-noticia">
+              <div class="card h-100 custom-card">
+                <img src="img/noti/noti6.webp" class="card-img-top"
+                  alt="Inchcape Colombia" loading="lazy">
+                <div class="card-body">
+                  <h5 class="card-title">Inchcape Colombia designó a Juan David
+                    Uribe como su nuevo director automotriz</h5>
+                  <p class="card-text">Inchcape Colombia impulsa cambios
+                    organizacionales y refuerza el liderazgo femenino en el
+                    sector automotor alineado con su visión de excelencia
+                    operativa y compromiso con la diversidad.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Botón Ver más -->
+          <div class="text-center mt-4">
+            <button id="verMasBtn" class="btn btn-outline-primary px-4 py-2">
+              Ver más noticias
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de Contacto -->
+      <section id="contacto" class="py-5 bg-dark text-light">
+        <div class="container">
+          <h2 class="text-center mb-4">Contáctanos</h2>
+          <div class="row align-items-center">
+            <!-- Formulario -->
+            <div class="col-md-6">
+              <form>
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre"
+                    placeholder="Ingresa tu nombre" required>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">Correo</label>
+                  <input type="email" class="form-control" id="email"
+                    placeholder="ejemplo@correo.com" required>
+                </div>
+
+                <div class="mb-3">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" rows="4"
+                    placeholder="¿En qué podemos ayudarte?" required></textarea>
+                </div>
+
+                <div class="d-flex gap-2">
+                  <button type="submit"
+                    class="btn btn-primary w-50">Enviar</button>
+                  <button type="reset"
+                    class="btn btn-outline-light w-50">Limpiar</button>
+                </div>
+              </form>
+            </div>
+
+            <div class="col-md-6 text-center mt-4 mt-md-0">
+              <img src="/img/nav-ico/neodrive.jpeg" alt="Logo NeoDrive"
+                style="max-width: 200px;" class="img-fluid mb-3">
+              <p class="text-muted">Estamos para ayudarte en todo momento</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer-modern text-light py-5">
+        <div class="container">
+          <div class="row text-center text-md-start">
+
+            <!-- Columna Descripción -->
+            <div class="col-md-4 mb-3">
+              <h5 class="fw-bold">NeoDrive Motors</h5>
+              <p class="mb-0">
+                NeoDrive Motors, compañía innovadora dedicada al diseño y
+                desarrollo de automóviles del futuro, combinando tecnología
+                avanzada, diseño aerodinámico y soluciones sostenibles.
+              </p>
+            </div>
+
+            <!-- Columna Redes Sociales -->
+            <div class="col-md-4 mb-3 text-center">
+              <h5 class="fw-bold">Síguenos</h5>
+              <a href="#" class="text-white me-3 fs-4"><i
+                  class="fab fa-facebook"></i></a>
+              <a href="#" class="text-white me-3 fs-4"><i
+                  class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white me-3 fs-4"><i
+                  class="fab fa-instagram"></i></a>
+              <a href="#" class="text-white fs-4"><i
+                  class="fab fa-youtube"></i></a>
+            </div>
+
+            <!-- Columna Información -->
+            <div class="col-md-4 mb-3">
+              <h5 class="fw-bold">Contacto</h5>
+              <p class="mb-1"><i class="fas fa-envelope me-2"></i>
+                contacto@neodrivemotors.com</p>
+              <p class="mb-1"><i class="fas fa-phone me-2"></i>
+                +570000000000</p>
+              <p><i class="fas fa-map-marker-alt me-2"></i> Bogotá, Colombia</p>
+            </div>
+
+          </div>
+          <hr class="border-light">
+          <div class="text-center pb-2">
+            <small>&copy; 2025 NeoDrive Motors. Todos los derechos
+              reservados.</small>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Font Awesome -->
+      <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+      <script src="js/script.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+  </html>
