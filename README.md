@@ -1,4 +1,4 @@
-# 🚗 NeoDriver Motors
+# NeoDriver Motors
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
@@ -9,17 +9,11 @@
 **NeoDriver Motors** es un sitio web estático para una empresa ficticia dedicada a la fabricación y comercialización de automóviles innovadores (eléctricos, híbridos y de gasolina).  
 Incluye diseño responsivo, secciones interactivas y contenido multimedia.
 
-🔗 **Demo online:** [neo-drive-motors.vercel.app](https://neo-drive-motors.vercel.app)
+ **Demo online:** [neo-drive-motors.vercel.app](https://neo-drive-motors.vercel.app)
 
 ---
 
-## 📸 Vista previa
-
-![Vista previa del sitio](ruta-a-la-captura.png) <!-- Cambia 'ruta-a-la-captura.png' por la ruta real en tu repo -->
-
----
-
-## ✨ Características
+##  Características
 
 - **Menú de navegación** claro y funcional.
 - **Slider de imágenes** para destacar modelos y tecnologías.
@@ -32,7 +26,7 @@ Incluye diseño responsivo, secciones interactivas y contenido multimedia.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠 Tecnologías utilizadas
 
 - HTML5
 - CSS3 + Bootstrap 5
@@ -41,7 +35,7 @@ Incluye diseño responsivo, secciones interactivas y contenido multimedia.
 
 ---
 
-## 📂 Estructura del proyecto
+##  Estructura del proyecto
 
 ```plaintext
 NeoDriver-Motors/
@@ -64,3 +58,4 @@ NeoDriver-Motors/
 │   └── politica.html
 ├── index.html
 └── README.md
+
