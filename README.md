@@ -1,4 +1,4 @@
-# NeoDriver Motors
+# NeoDrive Motors
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)]()
@@ -6,7 +6,7 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)]()
 
-**NeoDriver Motors** es un sitio web estático para una empresa ficticia dedicada a la fabricación y comercialización de automóviles innovadores (eléctricos, híbridos y de gasolina).  
+**NeoDrive Motors** es un sitio web estático para una empresa ficticia dedicada a la fabricación y comercialización de automóviles innovadores (eléctricos, híbridos y de gasolina).  
 Incluye diseño responsivo, secciones interactivas y contenido multimedia.
 
  **Demo online:** [neo-drive-motors.vercel.app](https://neo-drive-motors.vercel.app)
@@ -38,7 +38,7 @@ Incluye diseño responsivo, secciones interactivas y contenido multimedia.
 ##  Estructura del proyecto
 
 ```plaintext
-NeoDriver-Motors/
+NeoDrive-Motors/
 ├── css/
 │   ├── contacto.css
 │   ├── galeria.css
@@ -58,4 +58,5 @@ NeoDriver-Motors/
 │   └── politica.html
 ├── index.html
 └── README.md
+
 
